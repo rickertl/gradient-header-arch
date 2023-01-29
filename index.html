@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient Header Arch</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #header {
+        color: white;
+        background-color: #006ca2;
+        height: 50px;
+        padding: 40px;
+        font-family: Helvetica, sans-serif;
+        font-size: 2em;
+      }
+      #arch,
+      #arch:after,
+      #arch:before {
+        position: absolute;
+      }
+      #arch {
+        width: 100%;
+        height: 180px;
+        margin: -18px auto 0;
+        overflow: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      #arch:after,
+      #arch:before {
+        content: "";
+        border-radius: 100%;
+        height: 400px;
+        z-index: 3;
+      }
+      #arch:after {
+        left: -20%;
+        top: 0;
+        width: 140%;
+        box-shadow: 0 0 0 100px #006ca2;
+      }
+      #arch:before {
+        left: -15%;
+        top: 20px;
+        width: 145%;
+        box-shadow: 300px 0 200px 100px #a7a9ac, 0 0 0 100px #e2e3e4;
+      }
+      #hero img {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">Company Name</div>
+    <div id="arch"></div>
+    <div id="hero">
+      <img
+        src="http://www.publicdomainpictures.net/pictures/230000/velka/chicago-skyline-at-night-1505924392KrN.jpg"
+        alt="hero"
+      />
+    </div>
+  </body>
+</html>
