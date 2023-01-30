@@ -1,6 +1,11 @@
 # GRADIENT HEADER ARCH
 
-Based on a supplied company brochure, recreated the arch artwork for website usage.
+Based on a supplied company print brochure, recreated the arch artwork for website usage and consistency across mediums.
+
+## Notes
+
+- Uses only CSS for arch colors and design (city background image is used to show usage)
+- Arch is responsive/mobile-friendly
 
 ## Links
 
