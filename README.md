@@ -1,6 +1,9 @@
 # GRADIENT HEADER ARCH
 
-Based on a supplied company print brochure, recreated the arch artwork for website usage and consistency across mediums.
+Based on a supplied company print brochure, recreated gradient arch artwork for website usage and consistency across mediums.
+
+Arch depicted in brochure:
+![Arch](image.jpg)
 
 ## Notes
 
